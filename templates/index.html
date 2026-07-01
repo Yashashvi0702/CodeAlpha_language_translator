@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Language Translator</title>
+
+<link
+rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Language Translator</h1>
+
+<textarea
+id="inputText"
+placeholder="Enter text">
+</textarea>
+
+<br><br>
+
+<select id="source">
+
+<option value="en">English</option>
+
+<option value="hi">Hindi</option>
+
+<option value="fr">French</option>
+
+</select>
+
+<select id="target">
+
+<option value="hi">Hindi</option>
+
+<option value="en">English</option>
+
+<option value="fr">French</option>
+
+</select>
+
+<br><br>
+
+<button onclick="translateText()">
+Translate
+</button>
+
+<h3>Translated Text</h3>
+
+<div id="output"></div>
+
+</div>
+
+<script
+src="{{ url_for('static', filename='script.js') }}">
+</script>
+
+</body>
