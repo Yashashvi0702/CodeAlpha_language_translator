@@ -19,3 +19,14 @@ Run locally:
 pip install -r requirements.txt
 
 python api.py
+# Language Translation Tool
+
+A Flask-based language translator.
+
+## Live Demo
+https://YOUR-RENDER-LINK.onrender.com
+
+## Features
+- Translate text
+- Multiple languages
+- Flask backend
