@@ -24,7 +24,7 @@ python api.py
 A Flask-based language translator.
 
 ## Live Demo
-https://YOUR-RENDER-LINK.onrender.com
+https://language-translator-0rev.onrender.com
 
 ## Features
 - Translate text
